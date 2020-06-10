@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #454545;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #454545;
+}
+
+.name {
+  font-weight: 100;
+  font-size: 3rem;
+  padding: 0 20px;
+}
+
+@media (max-width: 280px) {
+  .name {
+    font-size: 2rem;
+  }
+}
